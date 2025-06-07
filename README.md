@@ -1,5 +1,3 @@
-# Fraud-Detection
-Machine Learning-based Fraud Detection System using Logistic Regression and EDA
 # 🛡️ Fraud Detection System using Machine Learning
 
 This project is focused on identifying fraudulent transactions in financial datasets using machine learning techniques. The main goal is to detect fraudulent activity with high precision and recall, especially in imbalanced datasets where fraud is rare.
