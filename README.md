@@ -102,6 +102,42 @@ Fraud detection is a critical component of modern financial systems. This projec
 
 These results indicate the model is highly effective in detecting fraud with minimal false positives.
 
+## 💻 Usage
+
+Run the Jupyter Notebook:
+
+```bash
+fraud_detection.ipynb
+```
+
+- Modify file paths inside the notebook if you are using your own dataset.
+- Visualize the output metrics like confusion matrix, ROC curve, and feature importance.
+- Tweak model parameters (e.g., logistic regression threshold, SMOTE ratios) to improve performance.
+
+Visualize metrics and tweak model parameters as required
+# Folder Structure
+```
+Fraud-Detection/
+│
+├── data/                  # Raw or cleaned dataset 
+├── python/                # Python scripts for visualizations & analysis
+├── model/                 # Saved model (pickle or joblib)
+├── python                 # Jupyter Notebook with analysis
+├── requirements.txt       # List of required packages
+├── SQL/                   # SQL Queries
+└── README.md              # Project documentation
+```
+---
+
+## 🔮 Future Enhancements
+
+- Add more models: XGBoost, LightGBM, Random Forest
+
+- Create a Streamlit dashboard for real-time predictions
+
+- Deploy using AWS / Heroku / Render
+
+- Add drift detection for fraud patterns over time
 ---
 
 ## 🚀 Installation
@@ -110,3 +146,14 @@ These results indicate the model is highly effective in detecting fraud with min
 ```bash
 git clone https://github.com/anshulbankey21/Fraud-Detection.git
 cd Fraud-Detection
+```
+---
+
+## 👨‍💻 Author
+```
+Anshul Bankey
+📧 anshulbankey21@gmail.com
+🌐 GitHub
+🔗 LinkedIn
+```
+
